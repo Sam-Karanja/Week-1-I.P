@@ -1,11 +1,21 @@
-.nav-tabs{
+
+.top-list{
     list-style: none;
     display: inline;
     height: 50px;
 }
 
-.top-logo{
-    
-    width: 50%;
+.nav-tabs{
+    display: inline;
 }
 
+
+.tabs{
+    display: inline;
+    flex: right;
+    flex-direction: column;
+}
+#shine{
+    font-size: 300%;
+    font-weight: bold;
+}
