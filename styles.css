@@ -1,9 +1,9 @@
-
-.top-list{
-    list-style: none;
-    display: inline;
-    height: 50px;
+*{
+    margin: 5px;
+    box-sizing: border-box;
 }
+
+
 
 .nav-tabs{
     display: inline;
@@ -12,10 +12,77 @@
 
 .tabs{
     display: inline;
+    float: right;
+    padding-right: 50px;
     flex: right;
-    flex-direction: column;
+}
+
+
+#logo{
+    list-style: none;
+    font-size: xx-large;
+    font-weight: 800 ;
+    margin-left: 20px;
+    padding-top: 0%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 40;
+
+
+}
+#logo inline {
+    color:#F6B400;
 }
 #shine{
     font-size: 300%;
     font-weight: bold;
+    padding: none;
+}
+
+#big-burger{
+    float: right;
+    padding-top: 0%;
+    padding-bottom: 60px;
+    padding-right: 400px;
+
+}
+
+#order-button{
+    background-color: #F6B400;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    color: white;
+    height: 50px;
+}
+
+.dine{
+    height: 650px;
+}
+
+.quality{
+    width: 30%;
+    height: 100px;
+    border: 1px;
+
+  
+
+
+}
+
+.class3{
+    background-color: #E1EBE6;
+    display: inline ;
+}
+
+#quality-head{
+    font-size: xx-large;
+    text-align: center;
+}
+
+#quality-image{
+    float: left;
+}
+#qualityp{
+    float: right;
 }
