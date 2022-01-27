@@ -17,6 +17,12 @@
     flex: right;
 }
 
+.press{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+
 
 #logo{
     list-style: none;
@@ -30,9 +36,10 @@
 
 
 }
-#logo inline {
-    color:#F6B400;
-}
+
+
+
+
 #shine{
     font-size: 300%;
     font-weight: bold;
@@ -44,7 +51,7 @@
     padding-top: 0%;
     padding-bottom: 60px;
     padding-right: 400px;
-
+ 
 }
 
 #order-button{
@@ -57,7 +64,7 @@
 }
 
 .dine{
-    height: 650px;
+    height: 800px;
 }
 
 .quality{
