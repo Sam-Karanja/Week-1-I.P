@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -6,15 +6,69 @@
 
 header{
     padding: 30px;
+} */
+
+.nav-tabs {
+
+    display: flex;
+    justify-content: space-between;
+
 }
 
-.nav-tabs{
-    height: 10pc;
+.title {
     display: inline;
-    text-decoration: none;
+    word-spacing: 50px;
+}
+
+.logo {
+    display: flex;
 
 }
 
+.foods {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    
+    background-color: #E1EBE6 ;
+    height: 800px;
+
+}
+
+.quality {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    height: 300px;width: 300;
+
+
+}
+
+.delivery {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    height: 500px;
+    width: 500;
+}
+
+.delicious {
+
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.menu{
+    
+}
+
+
+/* 
 .top-list{
     list-style-type: none;
 }
@@ -25,6 +79,7 @@ header{
     float: right;
     padding-right: 50px;
     flex: right;
+    
 }
 
 .press a{
@@ -66,22 +121,23 @@ header{
     /* display: block; */
 }
 
+/* 
 #para{
     /* display: block; */
-    padding-top: 50px;
+/* padding-top: 50px;
     float: left;
 }
 
 #big-burger{
 
-    height: 100vh;
-    float: right;
-    /* padding-top: 10px%;
+    height: 80vh;
+    float: right; */
+/* /* padding-top: 10px%;
     padding-bottom: 60px; */
-   
-    /* margin-right: 100px; */
- 
-}
+
+/* margin-right: 100px; */
+*/
+/* }
 
 #order-button{
     background-color: #F6B400;
@@ -104,7 +160,7 @@ header{
 
 .quality{
     width: 30%;
-    height: 100px;
+   height: 100px;
     border: 1px;
 
   
@@ -113,14 +169,10 @@ header{
 }
 
 .class2{
-    
-    /* height: 100vh; */
-    
-    width: 100%;
-    padding: 50 0;
-}
-
-.Rain-text{
+    display: flex;
+} */
+*/
+/* .Rain-text{
     align-items: center;
     width: 50%;
    
@@ -137,7 +189,7 @@ header{
 }
 
 #order-button{
-    
+     */
 
 /* #quality-head{
     font-size: xx-large;
@@ -149,8 +201,9 @@ header{
 }
 #qualityp{
     float: right; */
-}
+/* }
 
 .quality{
     display: ;
-}
+} */
+*/
