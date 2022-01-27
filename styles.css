@@ -20,9 +20,25 @@ header{
     word-spacing: 50px;
 }
 
+.header1{
+    background: linear-gradient(101deg,white 50%, #F6B400 50.1%);
+    width: 100%;
+    
+}
+
 .logo {
     display: flex;
 
+}
+
+.class2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rain{
+    display: flex;
+    flex-direction: column;
 }
 
 .foods {
@@ -65,16 +81,17 @@ header{
 
 .menu{
     height: auto;
+    width: 100pc;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
-    
     text-align: center;
+    margin: 50px;
 }
 
 .double{
-    width: 30%;
+    width: 25%;
     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     padding: 40px;
@@ -84,7 +101,7 @@ header{
 }
 
 .double1{
-    width: 30%;
+    width: 25%;
     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     padding: 40px;
@@ -92,7 +109,7 @@ header{
 
 
 .double2{
-    width: 30%;
+    width: 25%;
     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     padding: 40px;
@@ -100,7 +117,7 @@ header{
 
 
 .double3{
-    width: 30%;
+    width: 25%;
     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     padding: 40px;
@@ -108,7 +125,7 @@ header{
 
 
 .double4{
-    width: 30%;
+    width: 25%;
     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     padding: 40px;
@@ -116,11 +133,30 @@ header{
 
 
 .double5{
-    width: 30%;
+    width: 25%;
     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     padding: 40px;
 }
+
+.doubleburger{
+    display: flex;
+  
+    justify-content: space-between;
+}
+.decker{
+    height: 20px;
+}
+.image{
+  position: absolute;
+  height: 30px;
+}
+
+.images{
+    position: relative;
+}
+
+
 
 
 /* 
